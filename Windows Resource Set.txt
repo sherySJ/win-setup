@@ -1,0 +1,3 @@
+Activations: irm https://massgrave.dev/get | iex
+WinUtil: irm https://christitus.com/win | iex
+Win10 Debloat: iwr -useb https://git.io/debloat|iex

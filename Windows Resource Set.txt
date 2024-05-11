@@ -3,3 +3,4 @@ WinUtil: irm https://christitus.com/win | iex
 Win10 Debloat: iwr -useb https://git.io/debloat|iex
 Links
 All Win resources: tb.rg-adguard.net/public.php
+Windows Server dump: uupdump.net

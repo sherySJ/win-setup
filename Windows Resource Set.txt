@@ -5,3 +5,8 @@ Links
 All Win resources: tb.rg-adguard.net/public.php
 Windows Server dump: uupdump.net
 Mac Activation: https://massgrave.dev/office_for_mac
+
+
+Commands: 
+
+`winget upgrade --all --accept-package-agreements`

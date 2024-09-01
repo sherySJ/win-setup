@@ -1,12 +1,45 @@
-Activations: irm https://massgrave.dev/get | iex -> irm https://get.activated.win | iex
-WinUtil: irm https://christitus.com/win | iex
-Win10 Debloat: iwr -useb https://git.io/debloat|iex
+Activations
+-----------
+1. Windows Activation (Massgrave)
+   irm https://massgrave.dev/get | iex
+
+2. Windows Activation (Activated.win)
+   irm https://get.activated.win | iex
+
+Utilities
+---------
+1. WinUtil
+   irm https://christitus.com/win | iex
+
+2. Windows 10 Debloat
+   iwr -useb https://git.io/debloat | iex
+
 Links
-All Win resources: tb.rg-adguard.net/public.php
-Windows Server dump: uupdump.net
-Mac Activation: https://massgrave.dev/office_for_mac
+-----
+1. All Windows Resources
+   tb.rg-adguard.net/public.php
 
+2. Windows Server Dump
+   uupdump.net
 
-Commands: 
+3. Mac Activation
+   massgrave.dev/office_for_mac
 
-`winget upgrade --all --accept-package-agreements`
+Commands
+--------
+1. Install WingetUI
+   winget install -e --id SomePythonThings.WingetUIStore
+
+2. Upgrade All Packages
+   winget upgrade --all --accept-package-agreements
+
+SFC (System File Checker) Process
+---------------------------------
+1. Step 1: Run SFC /Scannow
+   sfc /scannow
+
+2. Step 2: If Errors Found, Run DISM
+   DISM /Online /Cleanup-Image /RestoreHealth
+
+3. Step 3: Run SFC /Scannow Again
+   sfc /scannow

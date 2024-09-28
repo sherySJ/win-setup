@@ -43,3 +43,8 @@ SFC (System File Checker) Process
 
 3. Step 3: Run SFC /Scannow Again
    sfc /scannow
+
+Mac
+--------
+1. Homebrew combo
+   brew update; brew upgrade; brew cu --include-mas -a -f -y ; brew cleanup --prune=all; find "$(brew --prefix)/Caskroom" -type f '(' -name '*.dmg' -or -name '*.pkg' ')' -delete; brew doctor

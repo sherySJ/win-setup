@@ -104,3 +104,13 @@ This guide provides essential commands and resources for activating, optimizing,
    ```
 
 ---
+### Mac
+
+1. **Homebrew**
+   - A combo command for homebrew
+   ```
+   brew update; brew upgrade; brew cu --include-mas -a -f -y ; brew cleanup --prune=all; find "$(brew --prefix)/Caskroom" -type f '(' -name '*.dmg' -or -name '*.pkg' ')' -delete; brew doctor
+   ```
+
+---
+
